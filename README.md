@@ -5,7 +5,7 @@ An implementation of ECP in javascript
 
 ---
 
-The intent of this repository is merely to show the method (in javascript) to successfully return a SHIB-ECP protected "resource", it does not cover the overall lifecycle of the authenticated session, which can be achieved using (or something akin to) to jquery cookie plugin:
+The intent of this repository is merely to show the method (in javascript) to successfully return a SHIB-ECP protected "resource", it does not cover the overall lifecycle of the authenticated session, which can be achieved using (or something akin) to the jquery cookie plugin:
 
 $.cookie - http://plugins.jquery.com/cookie/
 
