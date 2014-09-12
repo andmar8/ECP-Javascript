@@ -28,6 +28,6 @@ http://en.wikipedia.org/wiki/Basic_access_authentication
 * Take the response (now including a certificate) from the identity provider and re-format it for sending to the service provider
 * The response from the service provider will be the resource originally requested in the first step
 
-...as long as the shib cookie is set, all subsequent requests to SHIB-ECP protected resources on that server will return without the need to authenticate every time. This means as long as the cookie has not expired you can "reuse" the server session in your client as many times as you like, regardless of whether the client side session has been closed and restarted, all you need to do is reinsert the cookie so it sent with all requests.
+...as long as the shib cookie is set, all subsequent requests to SHIB-ECP protected resources on that server will return without the need to authenticate every time. This means as long as the cookie has not expired you can "reuse" the server session in your client as many times as you like, regardless of whether the client side session has been closed and restarted, all you need to do is reinsert the cookie so it is sent with all requests.
 
 When the cookie *does* eventually expire, you will need to a) detect this, and, b) reauthenticate and retrieve a new cookie.
